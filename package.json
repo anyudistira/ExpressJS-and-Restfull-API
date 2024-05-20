@@ -1,11 +1,13 @@
 {
   "dependencies": {
     "express": "^4.19.2",
+    "node-pg-migrate": "^7.3.2",
     "nodemon": "^3.1.0",
     "pg": "^8.11.5"
   },
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "migrate": "node-pg-migrate"
   }
 }
